@@ -1,0 +1,22 @@
+注意，在打包程序目录下执行cmd，然后激活环境，要添加u库所在的路径。第一个路径是环境所在路径，第二个是不能用的那个库的路径。
+pip list查看所有库，然后pip show zipp得到环境所在库，即为第一个路径。
+再pip show ultralytics得到另一个库的路径，即为第二个路径。
+name 后面的是文件名。
+最后一行的AAA_jietu_jiemain_xin2.py是要打包文件的入口。
+
+
+
+pyinstaller --noconfirm --clean --windowed --onedir --noupx ^
+--name xianlanjiance ^
+--paths "D:\ProgramData\Miniconda3\envs\yolo11\Lib\site-packages" ^
+--paths "D:\dazuoye_yolo11\yolo11-up" ^
+AAA_jietu_jiemain_xin2.py
+
+
+
+
+
+
+
+
+
