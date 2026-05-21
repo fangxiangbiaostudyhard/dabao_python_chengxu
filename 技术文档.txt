@@ -1,0 +1,35 @@
+虚拟环境的位置在哪里
+在D盘 miniconda
+
+
+pyinstaller --noconfirm --clean --windowed --onedir --noupx --name demo_image --paths "D:\ProgramData\Miniconda3\envs\yolo11\Lib\site-packages" demo_image.py
+
+
+兄弟 别把我环境搞乱了 求求
+哪怕弄不出来也没啥 别把环境搞乱了
+
+别急 别慌
+别害怕
+
+可以了兄弟
+
+牛逼兄弟 稍等
+可以请教一下大佬 因为什么错误吗
+
+因为 你的ultralytics模块安装路径在D:\dazuoye_yolo11\yolo11-up
+
+太牛逼了大佬 您怎么解决的可以告诉一下吗 重新安装环境？
+
+不是
+没重新安装
+打包的时候指定一下你环境的路径就行了
+
+
+最后一个问题了大佬 指令可以分享一下吗
+
+pyinstaller --noconfirm --clean --windowed --onedir --noupx --name AAA_jietu_jiemain_xin2 --paths "D:\programdata\miniconda3\envs\yolo11\lib\site-packages" --paths C:\Users\Administrator\Desktop\yolo11project\yolo11-up\42_demo\AAA_jietu_jiemain_xin2.py
+
+C:\Users\Administrator\Desktop\yolo11project\yolo11-up\42_demo
+d:\programdata\miniconda3\envs\yolo11\lib\site-packages
+感谢 
+抱拳了！！！
